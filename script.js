@@ -5,27 +5,21 @@ function checkEnter(e) {
   return txtArea || (e.keyCode || e.which || e.charCode || 0) !== 13;
 }
 
-document.querySelector("form").onkeypress = checkEnter;
+document.querySelector('form').onkeypress = checkEnter;
+
+const forms = document.querySelectorAll('form');
+forms.forEach((form) => {
+  form.onkeypress = checkEnter;
+});
 
 // First code
 function codeOne(form) {
   const inputValue = form.code1.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'henday') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
-  }
-}
-
-// First code
-function codeOne(form) {
-  const inputValue = form.code1.value;
-
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
-  } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 
@@ -33,10 +27,10 @@ function codeOne(form) {
 function codeTwo(form) {
   const inputValue = form.code2.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === '9') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 
@@ -44,79 +38,79 @@ function codeTwo(form) {
 function codeThree(form) {
   const inputValue = form.code3.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Fourth code
 function codeFour(form) {
   const inputValue = form.code4.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Fifth code
 function codeFive(form) {
   const inputValue = form.code5.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Sixth code
 function codeSix(form) {
   const inputValue = form.code6.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Seventh code
 function codeSeven(form) {
   const inputValue = form.code7.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Eighth code
 function codeEight(form) {
   const inputValue = form.code8.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Ninth code
 function codeNine(form) {
   const inputValue = form.code9.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
 // Tenth code
 function codeTen(form) {
   const inputValue = form.code10.value;
 
-  if (inputValue.toLowerCase() === "hello") {
-    alert("Correct!");
+  if (inputValue.toLowerCase() === 'hello') {
+    alert('Correct!');
   } else {
-    alert("Incorrect");
+    alert('Incorrect');
   }
 }
